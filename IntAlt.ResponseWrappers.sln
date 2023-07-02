@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33808.371
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntAlt.ResponseWrappers", "IntAlt.ResponseWrappers\IntAlt.ResponseWrappers.csproj", "{A3924828-096C-4AF7-8BEC-497B030DD9A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{8D728881-77AA-4390-9833-39897D13004F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntAlt.ResponseWrappers.UnitTests", "IntAlt.ResponseWrappers.UnitTests\IntAlt.ResponseWrappers.UnitTests.csproj", "{F86837E8-37BC-4A92-BD83-76A2E0711765}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3924828-096C-4AF7-8BEC-497B030DD9A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3924828-096C-4AF7-8BEC-497B030DD9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3924828-096C-4AF7-8BEC-497B030DD9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3924828-096C-4AF7-8BEC-497B030DD9A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86837E8-37BC-4A92-BD83-76A2E0711765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86837E8-37BC-4A92-BD83-76A2E0711765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86837E8-37BC-4A92-BD83-76A2E0711765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86837E8-37BC-4A92-BD83-76A2E0711765}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F86837E8-37BC-4A92-BD83-76A2E0711765} = {8D728881-77AA-4390-9833-39897D13004F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA5E818A-4960-4C15-816B-22FACA8EC2A5}
+	EndGlobalSection
+EndGlobal
