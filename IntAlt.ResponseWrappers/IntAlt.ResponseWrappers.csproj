@@ -1,9 +1,32 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageId>IntAlt.ResponseWrappers</PackageId>
+		<Version>0.9.0</Version>
+		<Authors>Thomas W. Clay</Authors>
+		<Company>Intelligent Alternatives</Company>
+		<Product>IntAlt.ResponseWrappers</Product>
+		<Title>IntAlt.ResponseWrappers</Title>
+		<Description>
+			This client library describes classes to wrap service responses to separate network responses,
+			such as HTTP response codes, from the service response information. A service response code
+			is wrapped, with an optional result object or optional error objects.
+		</Description>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/thomasclay/IntAlt.ResponseWrappers</RepositoryUrl>
+		<Copyright>Copyright (c) 2023, Thomas W. Clay, DBA Intelligent Alternatives. All rights reserved.</Copyright>
+		<PackageReleaseNotes>$([System.IO.File]::ReadAllText("$(MSBuildProjectDirectory)/release-notes.txt"))</PackageReleaseNotes>
+		<PackageTags>rest;wrapper;microservices</PackageTags>
+	</PropertyGroup>
 
+	<ItemGroup>
+		<None Include="LICENSE.txt" Pack="true" PackagePath="" />
+		<None Include="README.md" Pack="true" PackagePath="" />
+		<None Include="release-notes.txt" Pack="true" PackagePAth="" />
+	</ItemGroup>
 </Project>
