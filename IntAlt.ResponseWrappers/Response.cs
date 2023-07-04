@@ -57,7 +57,7 @@ public class Response
 /// <summary>
 /// A basic response with a result object / value.
 /// </summary>
-/// <typeparam name="T">Result type</typeparam>
+/// <typeparam name="T">Result class type</typeparam>
 public class Response<T> : Response where T: class
 {
     /// <summary>
